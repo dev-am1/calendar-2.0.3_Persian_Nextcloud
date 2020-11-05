@@ -1,0 +1,20 @@
+{
+    "config": {
+        "platform": {
+            "php": "7.2"
+        }
+    },
+    "require": {
+        "php": ">=7.2"
+    },
+    "require-dev": {
+        "christophwurst/nextcloud": "v18.0.2",
+        "christophwurst/nextcloud_testing": "0.10.0",
+        "phan/phan": "^2.0"
+    },
+    "scripts": {
+        "lint": "find . -name \\*.php -not -path './vendor/*' -exec php -l \"{}\" \\;",
+        "phan": "phan --allow-polyfill-parser -k .phan/config.php",
+        "test": "phpunit --configuration phpunit.unit.xml --fail-on-warning"
+    }
+}
