@@ -1,4 +1,5 @@
 # Nextcloud Calendar ( with Persian shamsi and persian datepicker as default)
+![Persian Shamsi Calendar](1c.png)
 
 [![Build Status](https://travis-ci.org/nextcloud/calendar.svg?branch=master)](https://travis-ci.org/nextcloud/calendar)
 [![Coverage Status](https://coveralls.io/repos/github/nextcloud/calendar/badge.svg?branch=master)](https://coveralls.io/github/nextcloud/calendar?branch=master)
